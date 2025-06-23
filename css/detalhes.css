@@ -1,0 +1,32 @@
+.area-detalhes {
+	width: 700px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.botao-voltar {
+	font-size: .9em;
+	color: #fff;
+	background-color: #C84755;
+	padding: 15px 17px;
+	border: 1px solid transparent;
+	border-radius: 8px;
+	margin-bottom: 16px;
+	transition: .3s ease-in-out;
+}
+
+.botao-voltar:hover {
+	color: #C84755;
+	background-color: transparent;
+	border-color: #C84755;
+}
+
+.lista-detalhes {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.termo-detalhe {
+	font-weight: bold;
+}

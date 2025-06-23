@@ -1,0 +1,71 @@
+.area-botoes-cta {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 16px;
+}
+
+.botao-cta {
+	color: #fff;
+	background-color: #C84755;
+	padding: 16px 18px;
+	border: 1px solid transparent;
+	border-radius: 8px;
+	transition: .3s ease-in-out;
+}
+
+.botao-cta:hover {
+	color: #C84755;
+	background-color: transparent;
+	border-color: #C84755;
+}
+
+.modal {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	z-index: 2;
+	transform: translate(-50%, -50%);
+	background-color: #fff;
+	width: 400px;
+	max-width: 90%;
+	padding: 16px;
+	border-radius: 8px;
+	transition: .3s ease-in-out;
+}
+
+.modal.esconder {
+	transform: translate(-50%, -100%);
+	opacity: 0;
+	pointer-events: none;
+}
+
+.titulo-modal {
+	font-size: 1.3em;
+	text-align: center;
+}
+
+.txt-modal {
+	min-height: 40px;
+}
+
+.botao-fechar-modal {
+	align-self: flex-end;
+	font-size: .8em;
+	color: #fff;
+	background-color: #ff0000;
+	padding: 14px 16px;
+	border: 1px solid transparent;
+	border-radius: 8px;
+	cursor: pointer;
+	transition: .3s ease-in-out;
+}
+
+.botao-fechar-modal:hover {
+	color: #ff0000;
+	background-color: transparent;
+	border-color: #ff0000;
+}
