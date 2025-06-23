@@ -28,6 +28,8 @@ const limparCampo = (campo) => {
 	campo.value = "";
 };
 
+window.addEventListener("pageshow", fecharModal);
+
 document.addEventListener("keydown", (e) => {
 	if (e.key === "Escape") {
 		fecharModal();

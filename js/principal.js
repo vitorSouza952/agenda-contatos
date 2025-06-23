@@ -15,6 +15,8 @@ const abrirNavbarLateral = () => {
 	});
 };
 
+window.addEventListener("pageshow", fecharNavbarLateral);
+
 window.addEventListener("resize", () => {
 	if (window.innerWidth >= 576) {
 		fecharNavbarLateral();
